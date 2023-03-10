@@ -4,7 +4,7 @@ void nhap(int a[],int n){
 
     for (int  i = 0; i < n; i++)
     {
-        printf("gia tri phan thu thu %d ", i+1);
+        printf("gia tri phan thu %d ", i+1);
         scanf("%d",&a[i]);
     }
 
@@ -17,7 +17,7 @@ void xuat(int a[],int n){
 }
 int main(){
     int a[1000],n;
-    printf("Nhap so phan tu trong mang: ");
+    printf("Nhap so phan tu trong mang la : ");
     scanf("%d",&n);
     nhap(a,n);
     int *ptr = a;

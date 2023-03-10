@@ -28,7 +28,7 @@ int main(){
             max=*(ptr+i);
         }
     }
-    printf("Gia tri lon nhat la: %d\n",max);
+    printf("Gia tri lon nhat la bao nhieu : %d\n",max);
 
 
 
